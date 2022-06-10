@@ -7,5 +7,6 @@ namespace BaseAPI.Domain.Models
         public int Id { get; set; }
         public int ParentID { get; set; }
         public string Name { get; set; }
+        public string Icon { get; set; }
     }
 }

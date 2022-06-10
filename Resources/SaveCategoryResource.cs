@@ -8,5 +8,6 @@ namespace BaseAPI.Resources
         [MaxLength(30)]
         public string Name { get; set; }
         public string ParentID { get; set; }
+        public string Icon { get; set; }
     }
 }

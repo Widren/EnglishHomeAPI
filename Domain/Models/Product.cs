@@ -8,7 +8,6 @@ namespace BaseAPI.Domain.Models
         public string Name { get; set; }
         public double Cost { get; set; }
         public int CategoryID { get; set; }
-        public int SubCategoryID { get; set; }
         public string ImageURL { get; set; }
         public string Color { get; set; }
         public double rating { get; set; }

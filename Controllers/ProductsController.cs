@@ -5,6 +5,7 @@ using BaseAPI.Extensions;
 using BaseAPI.Resources;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace BaseAPI.Controllers
@@ -26,6 +27,13 @@ namespace BaseAPI.Controllers
         {
             var products = await _productService.ListAsync();
             var resources = _mapper.Map<IEnumerable<Product>, IEnumerable<ProductResource>>(products);
+            return resources;
+        }
+        [HttpGet]
+        public async Task<IEnumerable<ProductResource>> getWithID(int id)
+        {
+            var products = await _productService.ListAsync();
+            var resources = _mapper.Map<IEnumerable<Product>, IEnumerable<ProductResource>>(products).Where(x=>x.Id==id);
             return resources;
         }
         [HttpPost]
