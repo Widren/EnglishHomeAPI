@@ -25,7 +25,7 @@ namespace BaseAPI.Persistence.Contexts
             builder.Entity<Category>().Property(p => p.Icon);
             builder.Entity<Category>().HasData
             (
-                new Category { Id = 100, Name = "Yatak Odası",  },
+                new Category { Id = 100, Name = "Yatak Odası" },
                 new Category { Id = 101, Name = "Mutfak" },
                 new Category { Id = 102, Name = "Banyo" },
                 new Category { Id = 103, Name = "Salon" },

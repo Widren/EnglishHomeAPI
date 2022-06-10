@@ -29,7 +29,7 @@ namespace BaseAPI.Controllers
             var resources = _mapper.Map<IEnumerable<Product>, IEnumerable<ProductResource>>(products);
             return resources;
         }
-        [HttpGet]
+        [HttpGet("{id}")]
         public async Task<IEnumerable<ProductResource>> getWithID(int id)
         {
             var products = await _productService.ListAsync();
