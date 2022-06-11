@@ -30,10 +30,10 @@ namespace BaseAPI.Controllers
             return resources;
         }
         [HttpGet("{id}")]
-        public async Task<IEnumerable<ProductResource>> getWithID(int id)
+        public async Task<ProductResource> getWithID(int id)
         {
             var products = await _productService.ListAsync();
-            var resources = _mapper.Map<IEnumerable<Product>, IEnumerable<ProductResource>>(products).Where(x=>x.Id==id);
+            var resources = _mapper.Map<IEnumerable<Product>, IEnumerable<ProductResource>>(products).First(x=>x.Id==id);
             return resources;
         }
         [HttpPost]
