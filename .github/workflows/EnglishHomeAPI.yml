@@ -1,12 +1,12 @@
-name: Build and deploy .NET Core app to Windows WebApp EnglishHome
+name: Build and deploy .NET Core app to Windows WebApp EnglishHomeAPI
 on:
   push:
     branches:
     - master
 env:
-  AZURE_WEBAPP_NAME: EnglishHome
+  AZURE_WEBAPP_NAME: EnglishHomeAPI
   AZURE_WEBAPP_PACKAGE_PATH: ./publish
-  AZURE_WEBAPP_PUBLISH_PROFILE: ${{ secrets.EnglishHome_909a }}
+  AZURE_WEBAPP_PUBLISH_PROFILE: ${{ secrets.EnglishHomeAPI_3a4d }}
   CONFIGURATION: Release
   DOTNET_CORE_VERSION: 5.0.x
   WORKING_DIRECTORY: .
