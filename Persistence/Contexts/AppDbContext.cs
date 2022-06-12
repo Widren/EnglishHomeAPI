@@ -25,10 +25,10 @@ namespace BaseAPI.Persistence.Contexts
             builder.Entity<Category>().Property(p => p.Icon);
             builder.Entity<Category>().HasData
             (
-                new Category { Id = 100, Name = "Yatak Odası" },
-                new Category { Id = 101, Name = "Mutfak" },
-                new Category { Id = 102, Name = "Banyo" },
-                new Category { Id = 103, Name = "Salon" },
+                new Category { Id = 100, Name = "Yatak Odası", Icon= "https://github.com/Widren/EnglishHome-EShopTemplateIntegrated/blob/main/Images/YatakOdasi.jpg?raw=true" },
+                new Category { Id = 101, Name = "Mutfak", Icon = "https://github.com/Widren/EnglishHome-EShopTemplateIntegrated/blob/main/Images/mutfak.jpg?raw=true" },
+                new Category { Id = 102, Name = "Banyo", Icon = "https://github.com/Widren/EnglishHome-EShopTemplateIntegrated/blob/main/Images/banyo.jpg?raw=true" },
+                new Category { Id = 103, Name = "Salon", Icon = "https://github.com/Widren/EnglishHome-EShopTemplateIntegrated/blob/main/Images/YatakOdasi.jpg?raw=true" },
 
                 new Category { Id = 104, ParentID = 100, Name = "Battaniye" },
                 new Category { Id = 105, ParentID = 100, Name = "Nevresim Seti" },
