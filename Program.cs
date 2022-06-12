@@ -1,5 +1,4 @@
-using BaseAPI.Core.Security.Hashing;
-using BaseAPI.Persistence;
+
 using BaseAPI.Persistence.Contexts;
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
@@ -19,10 +18,6 @@ namespace BaseAPI
                 //services, paswordhasher ,databaseSeedSonradan eklendi sorun çýkarsa silerek denenecek
                 var services = scope.ServiceProvider;
                 context.Database.EnsureCreated();
-                //
-                var passwordHasher = services.GetService<IPasswordHasher>();
-                //
-                DatabaseSeed.Seed(context, passwordHasher);
             }
 
             host.Run();
