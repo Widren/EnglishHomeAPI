@@ -25,30 +25,30 @@ namespace BaseAPI.Persistence.Contexts
             builder.Entity<Category>().Property(p => p.Icon);
             builder.Entity<Category>().HasData
             (
-                new Category { Id = 100, Name = "Yatak Odası", Icon= "https://github.com/Widren/EnglishHome-EShopTemplateIntegrated/blob/main/Images/YatakOdasi.jpg?raw=true" },
-                new Category { Id = 101, Name = "Mutfak", Icon = "https://github.com/Widren/EnglishHome-EShopTemplateIntegrated/blob/main/Images/mutfak.jpg?raw=true" },
-                new Category { Id = 102, Name = "Banyo", Icon = "https://github.com/Widren/EnglishHome-EShopTemplateIntegrated/blob/main/Images/banyo.jpg?raw=true" },
-                new Category { Id = 103, Name = "Salon", Icon = "https://github.com/Widren/EnglishHome-EShopTemplateIntegrated/blob/main/Images/YatakOdasi.jpg?raw=true" },
+                new Category { Id = 100, Name = "Yatak Odası", Icon= "https://github.com/Widren/EnglishHome-EShopTemplateIntegrated/blob/main/Images/bed.png?raw=true" },
+                new Category { Id = 101, Name = "Mutfak", Icon = "https://github.com/Widren/EnglishHome-EShopTemplateIntegrated/blob/main/Images/kitchen.png?raw=true" },
+                new Category { Id = 102, Name = "Banyo", Icon = "https://github.com/Widren/EnglishHome-EShopTemplateIntegrated/blob/main/Images/bathroom.png?raw=true" },
+                new Category { Id = 103, Name = "Salon", Icon = "https://github.com/Widren/EnglishHome-EShopTemplateIntegrated/blob/main/Images/sofa.png?raw=true" },
 
-                new Category { Id = 104, ParentID = 100, Name = "Battaniye" },
-                new Category { Id = 105, ParentID = 100, Name = "Nevresim Seti" },
-                new Category { Id = 106, ParentID = 100, Name = "Yastık" },
-                new Category { Id = 107, ParentID = 100, Name = "Yorgan" },
+                new Category { Id = 104, ParentID = 100, Name = "Battaniye", Icon = "https://cdn-icons.flaticon.com/png/512/3985/premium/3985780.png?token=exp=1655032591~hmac=85a7e847f44d5e074eefce3d76774d21" },
+                new Category { Id = 105, ParentID = 100, Name = "Nevresim Seti", Icon = "https://cdn-icons.flaticon.com/png/512/3821/premium/3821916.png?token=exp=1655032663~hmac=51cbe6b1355d4e1cc378d1e28930c9cf" },
+                new Category { Id = 106, ParentID = 100, Name = "Yastık", Icon = "https://cdn-icons-png.flaticon.com/512/1839/1839445.png" },
+                new Category { Id = 107, ParentID = 100, Name = "Yorgan", Icon = "https://cdn-icons-png.flaticon.com/512/5091/5091269.png" },
 
-                new Category { Id = 108, ParentID = 101, Name = "Tencere" },
-                new Category { Id = 109, ParentID = 101, Name = "Kavanoz" },
-                new Category { Id = 110, ParentID = 101, Name = "Fincan Seti" },
-                new Category { Id = 111, ParentID = 101, Name = "Yemek Takımı" },
+                new Category { Id = 108, ParentID = 101, Name = "Tencere", Icon = "https://cdn-icons-png.flaticon.com/512/767/767266.png" },
+                new Category { Id = 109, ParentID = 101, Name = "Kavanoz", Icon = "https://cdn-icons.flaticon.com/png/512/2661/premium/2661445.png?token=exp=1655032861~hmac=d37687efb9b1948baba5d7a423a4e4a2" },
+                new Category { Id = 110, ParentID = 101, Name = "Fincan Seti", Icon = "https://cdn-icons-png.flaticon.com/512/74/74766.png" },
+                new Category { Id = 111, ParentID = 101, Name = "Yemek Takımı", Icon = "https://cdn-icons.flaticon.com/png/512/894/premium/894534.png?token=exp=1655032931~hmac=e08fe0d3ce089c9abe4cef4262974e61" },
 
-                new Category { Id = 112, ParentID = 102, Name = "Havlu" },
-                new Category { Id = 113, ParentID = 102, Name = "Sabunluk" },
-                new Category { Id = 114, ParentID = 102, Name = "Bornoz" },
-                new Category { Id = 115, ParentID = 102, Name = "Banyo Seti" },
+                new Category { Id = 112, ParentID = 102, Name = "Havlu", Icon = "https://cdn-icons-png.flaticon.com/512/804/804272.png" },
+                new Category { Id = 113, ParentID = 102, Name = "Sabunluk", Icon = "https://cdn-icons.flaticon.com/png/512/781/premium/781482.png?token=exp=1655032991~hmac=e29799973fd1066435569e1c5eb5416f" },
+                new Category { Id = 114, ParentID = 102, Name = "Bornoz", Icon = "https://cdn-icons.flaticon.com/png/512/2390/premium/2390034.png?token=exp=1655033048~hmac=0c2b382016a3b140efbe66b43c156582" },
+                new Category { Id = 115, ParentID = 102, Name = "Banyo Seti", Icon = "https://cdn-icons.flaticon.com/png/512/2984/premium/2984941.png?token=exp=1655033113~hmac=cbcd6668cc77b9ed760098c5c06c862d" },
 
-                new Category { Id = 116, ParentID = 103, Name = "Halı" },
-                new Category { Id = 117, ParentID = 103, Name = "Kırlent" },
-                new Category { Id = 118, ParentID = 103, Name = "Masa Örtüsü" },
-                new Category { Id = 119, ParentID = 103, Name = "Sehpa" }
+                new Category { Id = 116, ParentID = 103, Name = "Halı", Icon = "https://cdn-icons-png.flaticon.com/512/1422/1422157.png" },
+                new Category { Id = 117, ParentID = 103, Name = "Kırlent", Icon = "https://cdn-icons.flaticon.com/png/512/911/premium/911728.png?token=exp=1655032693~hmac=93e27c9095e1d56800be05a42b7b0c13" },
+                new Category { Id = 118, ParentID = 103, Name = "Masa Örtüsü", Icon = "https://cdn-icons.flaticon.com/png/512/3604/premium/3604818.png?token=exp=1655033181~hmac=d7b9d6e07c94f617db7bc90c8815f7f7" },
+                new Category { Id = 119, ParentID = 103, Name = "Sehpa", Icon = "https://cdn-icons.flaticon.com/png/512/3724/premium/3724489.png?token=exp=1655033209~hmac=771dddf39435e9e27baad642d5c462d4" }
 
 
             );
