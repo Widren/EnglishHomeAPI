@@ -3,8 +3,12 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <AspNetCoreHostingModel>OutOfProcess</AspNetCoreHostingModel>
-    <AssemblyName>BaseAPI</AssemblyName>
-    <RootNamespace>BaseAPI</RootNamespace>
+    <AssemblyName>EnglishHomeAPI</AssemblyName>
+    <RootNamespace>EnglishHomeAPI</RootNamespace>
+    <PackageId>EnglishHomeAPI</PackageId>
+    <Authors>EnglishHomeAPI</Authors>
+    <Company>EnglishHomeAPIEnglishHomeAPI</Company>
+    <Product>EnglishHomeAPI</Product>
   </PropertyGroup>
 
   <ItemGroup>
