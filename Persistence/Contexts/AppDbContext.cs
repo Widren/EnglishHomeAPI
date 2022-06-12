@@ -1,7 +1,7 @@
-﻿using BaseAPI.Domain.Models;
+﻿using EnglishHomeAPI.Domain.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace BaseAPI.Persistence.Contexts
+namespace EnglishHomeAPI.Persistence.Contexts
 {
     public class AppDbContext : DbContext
     {

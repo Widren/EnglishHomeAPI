@@ -1,9 +1,9 @@
-﻿using BaseAPI.Domain.Models;
-using BaseAPI.Domain.Services.Communication;
+﻿using EnglishHomeAPI.Domain.Models;
+using EnglishHomeAPI.Domain.Services.Communication;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace BaseAPI.Domain.Services
+namespace EnglishHomeAPI.Domain.Services
 {
     public interface ICategoryService
     {

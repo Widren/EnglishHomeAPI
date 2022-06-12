@@ -1,6 +1,6 @@
-﻿using BaseAPI.Domain.Models;
+﻿using EnglishHomeAPI.Domain.Models;
 
-namespace BaseAPI.Domain.Services.Communication
+namespace EnglishHomeAPI.Domain.Services.Communication
 {
     public class ProductResponse : BaseResponse
     {

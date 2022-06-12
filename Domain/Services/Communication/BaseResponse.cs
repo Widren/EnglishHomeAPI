@@ -1,5 +1,5 @@
 ﻿
-namespace BaseAPI.Domain.Services.Communication
+namespace EnglishHomeAPI.Domain.Services.Communication
 {
     public abstract class BaseResponse
     {

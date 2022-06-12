@@ -1,8 +1,8 @@
-﻿using BaseAPI.Domain.Repositories;
-using BaseAPI.Persistence.Contexts;
+﻿using EnglishHomeAPI.Domain.Repositories;
+using EnglishHomeAPI.Persistence.Contexts;
 using System.Threading.Tasks;
 
-namespace BaseAPI.Persistence.Repositories
+namespace EnglishHomeAPI.Persistence.Repositories
 {
     public class UnitOfWork : IUnitOfWork
     {

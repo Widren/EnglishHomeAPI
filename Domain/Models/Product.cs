@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace BaseAPI.Domain.Models
+namespace EnglishHomeAPI.Domain.Models
 {
     public class Product
     {

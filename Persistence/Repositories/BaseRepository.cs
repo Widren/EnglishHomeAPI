@@ -1,7 +1,7 @@
 ﻿
-using BaseAPI.Persistence.Contexts;
+using EnglishHomeAPI.Persistence.Contexts;
 
-namespace BaseAPI.Persistence.Repositories
+namespace EnglishHomeAPI.Persistence.Repositories
 {
     public abstract class BaseRepository
     {

@@ -1,11 +1,11 @@
-﻿using BaseAPI.Domain.Models;
-using BaseAPI.Domain.Repositories;
-using BaseAPI.Persistence.Contexts;
+﻿using EnglishHomeAPI.Domain.Models;
+using EnglishHomeAPI.Domain.Repositories;
+using EnglishHomeAPI.Persistence.Contexts;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace BaseAPI.Persistence.Repositories
+namespace EnglishHomeAPI.Persistence.Repositories
 {
     public class CategoryRepository : BaseRepository, ICategoryRepository
     {

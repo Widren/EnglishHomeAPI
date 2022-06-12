@@ -1,8 +1,8 @@
-﻿using BaseAPI.Domain.Models;
+﻿using EnglishHomeAPI.Domain.Models;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace BaseAPI.Domain.Repositories
+namespace EnglishHomeAPI.Domain.Repositories
 {
     public interface IProductRepository
     {

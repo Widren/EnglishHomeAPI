@@ -1,13 +1,13 @@
 ﻿using AutoMapper;
-using BaseAPI.Domain.Models;
-using BaseAPI.Domain.Services;
-using BaseAPI.Resources;
+using EnglishHomeAPI.Domain.Models;
+using EnglishHomeAPI.Domain.Services;
+using EnglishHomeAPI.Resources;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace BaseAPI.Controllers
+namespace EnglishHomeAPI.Controllers
 {
     [Route("/api/[controller]")]
     public class ProductsController : Controller

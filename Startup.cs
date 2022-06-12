@@ -1,8 +1,8 @@
 using AutoMapper;
-using BaseAPI.Domain.Repositories;
-using BaseAPI.Domain.Services;
-using BaseAPI.Persistence.Contexts;
-using BaseAPI.Persistence.Repositories;
+using EnglishHomeAPI.Domain.Repositories;
+using EnglishHomeAPI.Domain.Services;
+using EnglishHomeAPI.Persistence.Contexts;
+using EnglishHomeAPI.Persistence.Repositories;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -14,7 +14,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
 using System;
 
-namespace BaseAPI
+namespace EnglishHomeAPI
 {
     public class Startup
     {

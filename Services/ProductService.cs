@@ -1,11 +1,11 @@
-﻿using BaseAPI.Domain.Models;
-using BaseAPI.Domain.Repositories;
-using BaseAPI.Domain.Services.Communication;
+﻿using EnglishHomeAPI.Domain.Models;
+using EnglishHomeAPI.Domain.Repositories;
+using EnglishHomeAPI.Domain.Services.Communication;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace BaseAPI.Domain.Services
+namespace EnglishHomeAPI.Domain.Services
 {
     public class ProductService : IProductService
     {

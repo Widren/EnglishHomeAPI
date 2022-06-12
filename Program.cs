@@ -1,10 +1,10 @@
 
-using BaseAPI.Persistence.Contexts;
+using EnglishHomeAPI.Persistence.Contexts;
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace BaseAPI
+namespace EnglishHomeAPI
 {
     public class Program
     {
@@ -15,7 +15,6 @@ namespace BaseAPI
             using (var scope = host.Services.CreateScope())
             using (var context = scope.ServiceProvider.GetService<AppDbContext>())
             {
-                //services, paswordhasher ,databaseSeedSonradan eklendi sorun çýkarsa silerek denenecek
                 var services = scope.ServiceProvider;
                 context.Database.EnsureCreated();
             }

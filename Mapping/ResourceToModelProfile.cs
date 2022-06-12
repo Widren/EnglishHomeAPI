@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
-using BaseAPI.Domain.Models;
-using BaseAPI.Resources;
+using EnglishHomeAPI.Domain.Models;
+using EnglishHomeAPI.Resources;
 
-namespace BaseAPI.Mapping
+namespace EnglishHomeAPI.Mapping
 {
     public class ResourceToModelProfile : Profile
     {
